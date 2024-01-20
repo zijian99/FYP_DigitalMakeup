@@ -73,3 +73,5 @@ pip install -r requirement.txt
 ```
 
 <br>
+<img src="https://github.com/zijian99/FYP_DigitalMakeup/assets/92379986/f0259962-dac3-4d64-8269-c2917fa3c39f" width="170" height="170">
+
