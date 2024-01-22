@@ -110,7 +110,9 @@ pip install opencv-python==4.8.1.78
 <br><br><br>
 
 ## References
-The source code of semantic segmentation models is referenced from this [repo](https://github.com/zllrunning/face-parsing.PyTorch)
+The **source code of semantic segmentation models**（Under [modules](https://github.com/zijian99/FYP_DigitalMakeup/tree/main/modules) and [pytorch_bisenet](https://github.com/zijian99/FYP_DigitalMakeup/tree/main/pytorch_bisenet) folder, and [test.py](https://github.com/zijian99/FYP_DigitalMakeup/blob/main/test.py)）is referenced from this [repo](https://github.com/zllrunning/face-parsing.PyTorch) 
+
+(Note: test.py file has been modified to get the color mask/mapping of the segmented facial features)
 
 <br><br>
 
