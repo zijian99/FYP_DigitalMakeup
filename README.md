@@ -18,7 +18,8 @@ Perform color transfer from source image to destination image<br><br>
 
 ## FLowchart of Digital Makeup Project:
 
-![Flowchart Digital Makeup](https://github.com/zijian99/FYP_DigitalMakeup/assets/92379986/b6e1a1ae-8b2b-4f15-bada-8554232ed0cb)
+![Flowchart Digital Makeup](https://github.com/zijian99/FYP_DigitalMakeup/assets/92379986/cc663a45-ca6b-4396-84e5-0451637e1d86)
+
 
 
 
