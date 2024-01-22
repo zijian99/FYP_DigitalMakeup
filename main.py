@@ -36,7 +36,7 @@ if __name__ == "__main__":
     evaluate(respth = anno_mask_path, dspth = img_folder_path, cp = '79999_iter.pth')
 
     # Refer to facial-parts-index-notes.txt to add in the color of required facial parts
-    #  
+    #  TODO:可以改一下，把全部需要的颜色放进来，再做一个facial parts 的list然后init一个choice array,choice 可能可以让User选择
     target_color = [ [255, 255, 85], [170, 0, 255], [0, 85, 255]]
 
     # Destination Image

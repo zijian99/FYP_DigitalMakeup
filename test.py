@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
-from logger import setup_logger
-from model import BiSeNet
+from pytorch_bisenet.logger import setup_logger
+from pytorch_bisenet.model import BiSeNet
 
 import torch
 
@@ -111,6 +111,6 @@ def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth')
 
 
 if __name__ == "__main__":
-    evaluate(dspth='test-img', cp='79999_iter.pth')
+    evaluate(respth = './image_folder/anno_mask_img/', dspth = './image_folder/test-img/', cp='79999_iter.pth')
 
 
