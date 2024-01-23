@@ -1,3 +1,9 @@
+'''
+Author : ZJ
+
+Color Transfer Algorithm 
+
+'''
 # ============================================================================================================================
 # REINHARD COLOR TRANSFER METHOD
 # 
@@ -129,16 +135,16 @@ def color_transfer_method(source_img,dest_img):
 
 
     # Save the result image for report
-    output_name = "output.png"
-    path_r = "./image_folder/color_transferred_img/"
+    output_name = "output-2.png"
+    path_r = "./image_folder/scenery/"
     cv2.imwrite(path_r+output_name,result)
 
     return result
 # ----------------------------------------------------------------------------------------------------------------------------
     
 if __name__ == "__main__":
-    source_path = "./image_folder/crop_facial_parts/source.png"
-    dest_path = "./image_folder/crop_facial_parts/dest.png"
+    source_path = "./image_folder/scenery/z.jpg"
+    dest_path = "./image_folder/scenery/c.jpg"
     source = cv2.imread(source_path)
     destination = cv2.imread(dest_path)
 

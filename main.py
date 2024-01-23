@@ -1,3 +1,9 @@
+'''
+Author : ZJ
+
+Main File of Digital Makeup
+
+'''
 # Procedure :
 
 # (Step 1) Use test.py evaluate function to retrieve the facial segmentation mapping for both source and destination
@@ -28,8 +34,8 @@ if __name__ == "__main__":
     img_folder_path = './image_folder/test-img/'
     crop_save_path = './image_folder/crop_facial_parts/'
     res_save_path = './image_folder/res-img/result.png'
-    source_img_name = '116' 
-    dest_img_name = '5'
+    source_img_name = 'aerith' 
+    dest_img_name = '116'
 
 
     # Run evaluate function to get all of the facial segmentation color mapping of the pictures in the dspth folder 

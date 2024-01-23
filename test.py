@@ -1,3 +1,10 @@
+'''
+Author : ZJ
+
+test.py is from pytorch_bisenet pretrained model repo, used for semantic segmentation
+
+'''
+
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 

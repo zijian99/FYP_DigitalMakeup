@@ -1,4 +1,9 @@
-#DONE BY ZJ
+'''
+Author : ZJ
+
+Code for cropping certain parts of image based on color mapping reference
+
+'''
 
 import cv2
 import numpy as np

@@ -1,3 +1,9 @@
+'''
+Author : ZJ
+
+Code for merging a image part back to the original image
+
+'''
 import cv2
 import numpy as np
 from reinhard_color_transfer import color_transfer_method
