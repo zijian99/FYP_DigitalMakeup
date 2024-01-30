@@ -18,7 +18,8 @@ Main File of Digital Makeup
 #       5)整理code 和code file(DONE)
 
 
-from test import evaluate
+from bisenet_segmentation import evaluate_bisenet
+from scanet_segmentation import evaluate_scanet
 from crop import crop 
 from reinhard_color_transfer import color_transfer_method
 from merge import merge
@@ -39,8 +40,10 @@ if __name__ == "__main__":
 
 
     # Run evaluate function to get all of the facial segmentation color mapping of the pictures in the dspth folder 
-    evaluate(respth = anno_mask_path, dspth = img_folder_path, cp = '79999_iter.pth')
-
+    evaluate_bisenet(respth = anno_mask_path, dspth = img_folder_path, cp = '79999_iter.pth')
+    # evaluate_scanet(respth = anno_mask_path, dspth = img_folder_path, cp='best_256.onnx')
+    
+    
     # Refer to facial-parts-index-notes.txt to add in the color of required facial parts
     #  TODO:可以改一下，把全部需要的颜色放进来，再做一个facial parts 的list然后init一个choice array,choice 可能可以让User选择
     # [170, 0, 255], [0, 85, 255]

@@ -76,7 +76,7 @@ def vis_parsing_maps(im, parsing_anno, stride, save_im=False, save_path='vis_res
 
     return vis_im
 
-def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth'):
+def evaluate_bisenet(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth'):
 
     if not os.path.exists(respth):
         os.makedirs(respth)
@@ -118,6 +118,6 @@ def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth')
 
 
 if __name__ == "__main__":
-    evaluate(respth = './image_folder/anno_mask_img/', dspth = './image_folder/test-img/', cp='79999_iter.pth')
+    evaluate_bisenet(respth = './image_folder/anno_mask_img/', dspth = './image_folder/test-img/', cp='79999_iter.pth')
 
 
