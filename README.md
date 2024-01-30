@@ -115,6 +115,7 @@ pip install opencv-python==4.8.1.78
 
 ## References
 The **source code of semantic segmentation models**（Under [modules](https://github.com/zijian99/FYP_DigitalMakeup/tree/main/modules) and [pytorch_bisenet](https://github.com/zijian99/FYP_DigitalMakeup/tree/main/pytorch_bisenet) folder, and [test.py](https://github.com/zijian99/FYP_DigitalMakeup/blob/main/test.py)）is referenced from this [repo](https://github.com/zllrunning/face-parsing.PyTorch) 
+Access [here](https://drive.google.com/drive/u/0/folders/188a_pHxfhAn4z2kwoP9tWXpt8L1M0u7J?ths=true) for the pretrained model.
 
 (Note: test.py file has been modified to get the color mask/mapping of the segmented facial features)
 
