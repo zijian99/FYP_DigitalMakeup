@@ -1,2 +1,7 @@
+1.Create virtual environment
 conda create --name dmakeup python=3.9
+
+2. Install library packages
 pip install -r requirement.txt
+
+3. Run main.py

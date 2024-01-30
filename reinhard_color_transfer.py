@@ -135,8 +135,8 @@ def color_transfer_method(source_img,dest_img):
 
 
     # Save the result image for report
-    output_name = "output-2.png"
-    path_r = "./image_folder/scenery/"
+    output_name = "output.png"
+    path_r = "./image_folder/color_transferred_img/"
     cv2.imwrite(path_r+output_name,result)
 
     return result

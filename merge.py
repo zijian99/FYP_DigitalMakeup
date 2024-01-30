@@ -30,7 +30,7 @@ def merge(img, img_parts, img_anno_path, result_save_path, target_color):
     # cv2.imshow(f"Result Image ", img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
-
+    img = cv2.resize(img, (512,512), interpolation = cv2.INTER_AREA)
     cv2.imwrite(result_save_path, img)
 
     return img

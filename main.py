@@ -34,8 +34,8 @@ if __name__ == "__main__":
     img_folder_path = './image_folder/test-img/'
     crop_save_path = './image_folder/crop_facial_parts/'
     res_save_path = './image_folder/res-img/result.png'
-    source_img_name = 'aerith' 
-    dest_img_name = '116'
+    source_img_name = '6' 
+    dest_img_name = '5'
 
 
     # Run evaluate function to get all of the facial segmentation color mapping of the pictures in the dspth folder 
@@ -43,7 +43,8 @@ if __name__ == "__main__":
 
     # Refer to facial-parts-index-notes.txt to add in the color of required facial parts
     #  TODO:可以改一下，把全部需要的颜色放进来，再做一个facial parts 的list然后init一个choice array,choice 可能可以让User选择
-    target_color = [ [255, 255, 85], [170, 0, 255], [0, 85, 255]]
+    # [170, 0, 255], [0, 85, 255]
+    target_color = [ [255, 255, 85], ]
 
     # Destination Image
     img = cv2.imread(img_folder_path + dest_img_name + '.jpg')
