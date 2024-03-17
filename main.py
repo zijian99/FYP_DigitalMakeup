@@ -35,8 +35,8 @@ if __name__ == "__main__":
     img_folder_path = './image_folder/test-img/'
     crop_save_path = './image_folder/crop_facial_parts/'
     res_save_path = './image_folder/res-img/result.png'
-    source_img_name = '6' 
-    dest_img_name = '5'
+    source_img_name = '5' 
+    dest_img_name = '0'
 
 
     # Run evaluate function to get all of the facial segmentation color mapping of the pictures in the dspth folder 
@@ -47,8 +47,9 @@ if __name__ == "__main__":
     # Refer to facial-parts-index-notes.txt to add in the color of required facial parts
     #  TODO:可以改一下，把全部需要的颜色放进来，再做一个facial parts 的list然后init一个choice array,choice 可能可以让User选择
     # [170, 0, 255], [0, 85, 255]
-    target_color = [ [255, 255, 85], ]
+    target_color = [ [255,255,85], ]
 
+    src_img = cv2.imread(img_folder_path + source_img_name + '.jpg')
     # Destination Image
     img = cv2.imread(img_folder_path + dest_img_name + '.jpg')
     dest_img = cv2.resize(img, (512,512), interpolation = cv2.INTER_AREA)
@@ -70,8 +71,9 @@ if __name__ == "__main__":
 
     # For showing initial source and dest img
     src_img = cv2.imread(img_folder_path + source_img_name + '.jpg')
-    src_img = cv2.resize(src_img, (512,512), interpolation = cv2.INTER_AREA)
-    img = cv2.resize(img, (512,512), interpolation = cv2.INTER_AREA)
+    # src_img = cv2.resize(src_img, (512,512), interpolation = cv2.INTER_AREA)
+    # img = cv2.resize(img, (512,512), interpolation = cv2.INTER_AREA)
+    dest_img = cv2.resize(dest_img, (img.shape[1],img.shape[0]), interpolation = cv2.INTER_AREA) 
     cv2.imshow(f"Source Image ", src_img)
     cv2.imshow(f"Destination Image ", img)
 
