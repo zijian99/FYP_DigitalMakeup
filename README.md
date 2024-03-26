@@ -151,8 +151,12 @@ pip install opencv-python==4.8.1.78
 2. **SCANet Semantic Segmentation** [Official GitHub Repository](https://github.com/Seungeun-Han/SCANet_Real-Time_Face_Parsing_Using_Spatial_and_Channel_Attention)
 <br>
 
-Access [here](https://drive.google.com/drive/u/0/folders/188a_pHxfhAn4z2kwoP9tWXpt8L1M0u7J?ths=true) for the pretrained model.
+> [!NOTE]
+> Access [here](https://drive.google.com/drive/u/0/folders/188a_pHxfhAn4z2kwoP9tWXpt8L1M0u7J?ths=true) for the pre-trained model.<br>
+> ***Please go to the official repository if you wished to access the pre-trained model for SCANet.***
 
+<br>
+<br>
 (Note: test.py file is modified to get the color mask/mapping of the segmented facial features)
 
 <br><br>
