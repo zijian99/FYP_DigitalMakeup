@@ -1,6 +1,8 @@
 # FYP Digital Makeup
 
 Perform Semantic Segmentation and Reinhard Color Transfer to retrieve facial features and transfer makeup from source image to destination image<br><br>
+[My FYP Report](https://dr.ntu.edu.sg/handle/10356/175268)<br><br>
+
 <img src="https://github.com/zijian99/FYP_DigitalMakeup/assets/92379986/542392bc-67b3-4750-9bbe-8f7eb78dc17e" width="170" height="170"><br><br>
 
 [![Licence](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/zijian99/FYP_DigitalMakeup/blob/main/LICENSE)
