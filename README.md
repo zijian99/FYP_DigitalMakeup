@@ -163,7 +163,7 @@ pip install opencv-python==4.8.1.78
 
 <br><br>
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zj99)
+<!--[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zj99)
 
-<img src="https://github.com/zijian99/FYP_DigitalMakeup/assets/92379986/f0259962-dac3-4d64-8269-c2917fa3c39f" width="170" height="170">
+<img src="https://github.com/zijian99/FYP_DigitalMakeup/assets/92379986/f0259962-dac3-4d64-8269-c2917fa3c39f" width="170" height="170"> -->
 
